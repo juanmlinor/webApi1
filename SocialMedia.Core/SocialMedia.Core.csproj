@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Entities\User.cs~RF5ad3676.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Enumerations\" />
-    <Folder Include="DTOs\" />
     <Folder Include="Exceptions\" />
   </ItemGroup>
 
