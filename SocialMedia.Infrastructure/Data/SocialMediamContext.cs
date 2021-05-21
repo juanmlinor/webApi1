@@ -19,7 +19,7 @@ namespace SocialMedia.Infrastructure.Data
 
         public virtual DbSet<Comment> Comments { get; set; }
         public virtual DbSet<Post> Posts { get; set; }
-        public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         //  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         // {
